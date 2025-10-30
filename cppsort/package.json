@@ -1,0 +1,118 @@
+{
+  "name": "cpp-sort-inserter",
+  "displayName": "C++ Sort Inserter",
+  "description": "Плагин для вставки кода сортировок и структур на C++",
+  "version": "1.0.0",
+  "publisher": "Arsushaaa",
+  "engines": {"vscode": "^1.22.0"},
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+        {
+            "command": "cppsort.insertBubbleSort",
+            "title": "Insert Bubble Sort (C++)"
+        },
+        {
+            "command": "cppsort.insertInsertionSort",
+            "title": "Insert Insertion Sort (C++)"
+        },
+        {
+            "command": "cppsort.insertCountingSortNotStable",
+            "title": "Insert Counting Not Stable Sort (C++)"
+        },
+        {
+            "command": "cppsort.insertCountingSortStable",
+            "title": "Insert Counting Stable Sort (C++)"
+        },
+        {
+            "command": "cppsort.insertRadixSort",
+            "title": "Insert Radix Sort (C++)"
+        },
+        {
+            "command": "cppsort.insertQuickSort",
+            "title": "Insert Quick Sort (C++)"
+        },
+        {
+            "command": "cppsort.insertMergeSort",
+            "title": "Insert Merge Sort (C++)"
+        },
+        {
+            "command": "cppsort.insertHeapSort",
+            "title": "Insert Heap Sort (C++)"
+        },
+        {
+            "command": "cppsort.insertHeapMin",
+            "title": "Insert HeapMin Struct (C++)"
+        },
+        {
+            "command": "cppsort.insertHeapMax",
+            "title": "Insert HeapMax Struct (C++)"
+        },
+        {
+            "command": "cppsort.insertStructAllSorts",
+            "title": "Insert Stuct All Sorts (C++)"
+        }
+    ],
+    "keybindings": [
+        {
+            "command": "cppsort.insertBubbleSort",
+            "key": "Ctrl+Shift+Alt+B",
+            "when": "editorTextFocus"
+        },
+        {
+            "command": "cppsort.insertInsertionSort",
+            "key": "Ctrl+Shift+Alt+I",
+            "when": "editorTextFocus"
+        },
+        {
+            "command": "cppsort.insertCountingSortNotStable",
+            "key": "Ctrl+Shift+Alt+9",
+            "when": "editorTextFocus"
+        },
+        {
+            "command": "cppsort.insertCountingSortStable",
+            "key": "Ctrl+Shift+Alt+0",
+            "when": "editorTextFocus"
+        },
+        {
+            "command": "cppsort.insertRadixSort",
+            "key": "Ctrl+Shift+Alt+R",
+            "when": "editorTextFocus"
+        },
+        {
+            "command": "cppsort.insertQuickSort",
+            "key": "Ctrl+Shift+Alt+Q",
+            "when": "editorTextFocus"
+        },
+        {
+            "command": "cppsort.insertMergeSort",
+            "key": "Ctrl+Shift+Alt+M",
+            "when": "editorTextFocus"
+        },
+        {
+            "command": "cppsort.insertHeapSort",
+            "key": "Ctrl+Shift+Alt+1",
+            "when": "editorTextFocus"
+        },
+        {
+            "command": "cppsort.insertHeapMin",
+            "key": "Ctrl+Shift+Alt+2",
+            "when": "editorTextFocus"
+        },
+        {
+            "command": "cppsort.insertHeapMax",
+            "key": "Ctrl+Shift+Alt+3",
+            "when": "editorTextFocus"
+        },
+        {
+            "command": "cppsort.insertStructAllSorts",
+            "key": "Ctrl+Shift+Alt+A",
+            "when": "editorTextFocus"
+        }
+    ]
+    }
+}
